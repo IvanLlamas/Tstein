@@ -1,0 +1,45 @@
+*{
+        margin: 0;
+	padding: 0;
+}
+
+body,html{
+  height: 100%;
+  width: 100%;
+
+}
+
+.slider{
+
+  background: red;
+  width: 70%;
+  height: 40%;
+  overflow: hidden;
+  font-family: sans-serif;
+  text-align: center;
+  color: white;
+  text-shadow:
+   -1px -1px 0 #000,
+   1px -1px 0 #000,
+   -1px 1px 0 #000,
+   1px 1px 0 #000;
+}
+
+.middle{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+.tcs{
+    background-image: url('https://mk0theadventuregfnyq.kinstacdn.com/wp-content/uploads/hiking-guide-copy-2.jpg');
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    position: inherit;
+    background-size: cover;
+
+}

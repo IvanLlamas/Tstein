@@ -1,0 +1,102 @@
+
+#IndexHeader{
+
+
+	      height: 15%;
+        width: 100%;
+        background: gray;
+        position: static;
+
+
+
+}
+
+
+nav.trans{
+    background-color: #d2c9c9c7;
+    height: 60px;
+
+    width: 100%;
+   /* box-shadow: 0px 5px 13px 1px rgba(0,0,0,0.93); */
+}
+
+nav{
+	background: black;
+/*
+background-image: url('https://png.pngtree.com/thumb_back/fw800/back_pic/00/03/78/81561fb92ca6fa0.jpg');
+background-repeat: no-repeat;
+background-size: 100%;
+*/
+
+   /* width of border*/
+ /* border: 2px solid #005bff66;  width of border*/
+  /*border-radius: 40px;*/
+  overflow: hidden;
+
+
+  height: 100%;
+  width: 100%;
+  transition: .3s;
+}
+nav ul{
+
+		width: 50%;
+    background: blue;
+    list-style: none;
+    float: left;
+    margin-top: 40px;
+    margin-left: 10%;
+    padding: 0;
+    display: flex;
+
+
+}
+
+nav ul li{
+
+		width: 30%;
+		background: green;
+    list-style: none;
+}
+
+nav ul li a{
+
+	background: gray;
+		border: solid black;
+    /*line-height: 310%;*/
+
+   color:whitesmoke;
+ font-family: Lucida Console;
+
+  text-align: center;
+   padding: 2% 2%;
+
+  text-decoration: none;
+  transition: background-color 0.5s;
+  font-size: 1em;
+
+
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+nav.trans ul li a{
+    color: black;
+}
+
+nav ul li a:focus{
+    outline: none;
+}
+
+nav ul li a.active{
+    background: red;
+    color: blue;
+    border-radius: 6px;
+}
+
+nav ul li a:hover{
+    color: red;
+    /* background-color:rgb(113, 112, 112);*/
+  transition:color 1s;
+}
